@@ -1,0 +1,34 @@
+# Python virtual environment
+venv/
+__pycache__/
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Flask instance folder (contains instance-specific configuration)
+instance/
+
+# Compiled frontend assets
+*.css
+*.js
+*.min.js
+*.min.css
+
+# Ignore local database files
+*.db
+
+# Compiled binary files
+*.exe
+*.dll
+
+# Ignore sensitive data
+config.py
+credentials.json  # If you have sensitive data stored in a JSON file
+
+# Ignore mail-related files
+emails/
